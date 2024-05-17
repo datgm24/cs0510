@@ -28,28 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
+            mybutton = new Button();
             SuspendLayout();
             // 
-            // button1
+            // mybutton
             // 
-            button1.BackColor = Color.FromArgb(255, 255, 192);
-            button1.Font = new Font("Tw Cen MT Condensed Extra Bold", 32F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.ForeColor = Color.FromArgb(192, 64, 0);
-            button1.Location = new Point(63, 75);
-            button1.Name = "button1";
-            button1.Size = new Size(300, 200);
-            button1.TabIndex = 0;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
+            mybutton.BackColor = Color.FromArgb(255, 255, 192);
+            mybutton.Font = new Font("Tw Cen MT Condensed Extra Bold", 32F, FontStyle.Regular, GraphicsUnit.Point);
+            mybutton.ForeColor = Color.FromArgb(192, 64, 0);
+            mybutton.Location = new Point(63, 75);
+            mybutton.Name = "mybutton";
+            mybutton.Size = new Size(300, 200);
+            mybutton.TabIndex = 0;
+            mybutton.Text = "button1";
+            mybutton.UseVisualStyleBackColor = false;
+            mybutton.Click += button1_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(button1);
+            Controls.Add(mybutton);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
@@ -58,6 +58,6 @@
 
         #endregion
 
-        private Button button1;
+        private Button mybutton;
     }
 }
